@@ -8,11 +8,10 @@ import numpy as np
 
 # Defining Functions #
 def function(var):
-    if var == 0:
-        return 1
-    else:
-        #Try to give var as your independent variable, function should be explicid
-        return np.cos(var)
+    #Try to declare the domain of the funtion, such as 'if var <= 0: return 0' for ln function etc.
+    
+    #Try to give var as your independent variable, function should be explicid
+    return np.cos(var)
     
 # Reimann summ method
 
